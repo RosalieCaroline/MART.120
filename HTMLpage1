@@ -1,0 +1,29 @@
+<html>
+	<title>Home Page</title>
+	<head></head>
+	<body bgcolor="yellow">
+		<h1 style="color:black;">Rosalie's Rockin' Web Page</h1><br>
+		<h2> Some of my hobbies include:</h2>
+			<ul>
+				<li>Video Games</li>
+				<li>Writing</li>
+				<li>Arts & Crafts</li>
+				<li>Film</li>
+				<li>Studying Languages</li>
+			</ul>
+		<h2>My Favorite Restaurants/Food Establishments:</h2>
+			<ul>
+				<li><a href="https://www.tripadvisor.com/Restaurant_Review-g45393-d3666549-Reviews-Hamilton_Public_House-Victor_Montana.html" target="_new">Hamilton House Pub</a></li>
+				<li><a href="https://tnbfreeze.wixsite.com/mysite" target="_new">Bonanza Freeze</a></li>
+				<li><a href="https://thestoneofaccord.com/" target="_new">Stone of Accord</a></li>
+			</ul>
+
+		<h2>My Favorite Websites:</h2>
+			<ol>
+				<li><a href="www.tumblr.com" target="_new">Tumblr</a></li>
+				<li><a href="https://www.geoguessr.com/" target="_new">GeoGuessr</a></li>
+				<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_new">Normal Website</a></li>
+			</ol>
+
+		<p><a href="HW6_Page2.html">Go to Page 2</a><br>
+		<a href="HW6_Page3.html">Contact</a></p>
