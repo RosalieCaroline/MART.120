@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+	<title>Contact</title>
+	<head>
+		<link rel= "mainstyle" href="//bootstrap link here! css" integrity="//specific bootstrap link" crossorigin="//anonymous?">
+		<script src="//bootstrap but js link" integrity="//specific bootstrap link but not same as above" crossorigin="//anonymous?"></script>
+		<script>
+			function checkboxes()
+			{ 
+				var firstName = document.getElementById("fName").value;
+				if(firstName == "")
+				{
+						document.getElementById("fName").style.backgroundColor = "red";
+						document.getElementById("fName").focus();
+						document.getElementById("fNameMessage").innerHTML = "* Required Field!";
+						document.getElementById("fNameMessage").style.color = "red";
+
+						return false;
+
+				}
+				var lastName = document.getElementById("lName").value;
+				if(lastName == "")
+				{
+						document.getElementById("lName").style.backgroundColor = "red";
+						document.getElementById("lName").focus();
+						document.getElementById("lNameMessage").innerHTML = "* Required Field!";
+						document.getElementById("lNameMessage").style.color = "red";
+
+						return false;
+				}
+				var Email = document.getElementById("Email").value;
+				if(Email == "")
+				{
+						document.getElementById("Email").style.backgroundColor = "red";
+						document.getElementById("Email").focus();
+						document.getElementById("EmailMessage").innerHTML = "* Required Field!";
+						document.getElementById("EmailMessage").style.color = "red";
+
+						return false;
+				}
+				var accept = document.getElementById("accept").checked;
+				{ window.alert("Must Accept or Decline Terms & Conditions!");
+
+			}
+			
+			}
+		</script>
+	</head>
+
+	</head>
+	<body style="background-color: pink;">
+		<div style="margin-left: 75px;">
+		<font color="brown";>
+		<h1>Contact Us</h1>
+		<p></p>
+		<form action="">
+		<p>First Name: <input type="text" id="fName"><span id="fNameMessage"></span></p>
+		<p>Last Name: <input type="text" id="lName"><span id="lNameMessage"></span></p>
+		<p>Email Address: <input type="text" id="Email"><span id="EmailMessage"></span></p>
+		<button id="btnSubmit" onclick='checkboxes();'>Submit Information</button>
+		</form>
+		<p><h3>Agree to the Terms & Conditions</h3></p>
+		<p><input type="radio" name="accept" value="Accept">Accept
+		   <input type="radio" name="decline" value="Decline"> Decline
+		<p><a href="HW6_Page1.html">Return to Home Page</a></p>
+		<p><a href="HW6_Page2.html">Page 2</a></p>
+		</font>
+		</div>
+	</body>
+	</head>
+</html>
